@@ -23,3 +23,5 @@ const found = persons.find((p) => p.name === "Hero");
 const some = persons.some((p) => p.marks > 10);
 // console.log(some);
 
+const every = persons.every((p)=>p.marks>50)
+// console.log(every)
