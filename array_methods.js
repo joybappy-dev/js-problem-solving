@@ -20,3 +20,6 @@ const filteredArray = persons.filter((p) => p.marks > 10);
 const found = persons.find((p) => p.name === "Hero");
 // console.log(found)
 
+const some = persons.some((p) => p.marks > 10);
+// console.log(some);
+
