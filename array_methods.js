@@ -13,3 +13,6 @@ const newArray = persons.map(function (element, index, array) {
     return element.name.toLowerCase();
 });
 // console.log(newArray);
+
+const filteredArray = persons.filter((p) => p.marks > 10);
+// console.log(filteredArray);
