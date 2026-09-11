@@ -30,3 +30,6 @@ const sum = persons.reduce((acc, current) => {
     return (acc += current.marks);
 }, 0);
 // console.log(sum);
+
+const sorted = persons.sort((a,b)=>b.marks-a.marks)
+// console.log(sorted)
