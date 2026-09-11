@@ -5,5 +5,11 @@ const persons = [
 ];
 
 persons.forEach((p, indx, arr) => {
-    console.log(indx + " " + p.name);
+    // console.log(indx + " " + p.name);
 });
+
+const newArray = persons.map(function (element, index, array) {
+    // Return the transformed element to be added to newArray
+    return element.name.toLowerCase();
+});
+// console.log(newArray);
