@@ -16,3 +16,7 @@ const newArray = persons.map(function (element, index, array) {
 
 const filteredArray = persons.filter((p) => p.marks > 10);
 // console.log(filteredArray);
+
+const found = persons.find((p) => p.name === "Hero");
+// console.log(found)
+
