@@ -33,3 +33,8 @@ const sum = persons.reduce((acc, current) => {
 
 const sorted = persons.sort((a,b)=>b.marks-a.marks)
 // console.log(sorted)
+
+// nulish collescing
+
+
+// import export in js
